@@ -1,9 +1,9 @@
-h1 {
+/* h1 {
 	color: #ff0000;
 	font-size: 30px;	
-}
+} */
 
-div {
+/* div {
 	background-color: #000;
 	}
 
@@ -25,4 +25,64 @@ div {
 
 	.div-special p {
 	color: #ccc;
-	}
+	} */
+	
+body, html {
+  height: 100%;
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+/* .container {
+  padding-top: 50px;
+} */
+
+.bg { 
+  /* The image used */
+  background-image: url("../assets/background.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#bgtext {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+#bgtext span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+body {
+  padding-top: 50px;
+  /*font-family: 'Georgia', serif;*/
+  /*background-color: #f7f1fa;*/
+  /* color: #242424; */
+}
+
+.portfolio-thumbnail {
+  background-color: #fff;
+  border-color: #000000;
+  border-width: 2px;
+  width: 95%;
+}
+
+.portfolio-thumbnail:hover {
+  border-color: #ebd122;
+}
+
+.portfolio-title {
+  font-weight: bold;
+}	

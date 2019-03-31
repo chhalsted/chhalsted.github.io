@@ -1,9 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" href="demo1.css" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Christian Halsted | Spatial Dataworks</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<link rel='icon' href='assets/logo-earthdb.ico' type='image/x-icon' sizes="16x16" />
 </head>
 <body>
-<h1>Red Heading, 30pt</h1>
+	<header>
+	<nav class="navbar navbar-default navbar-fixed-top"> <!-- Creates the navbar -->
+	  <div class="container">
+		<div class="navbar-header"> <!-- Creates the navbar header -->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <!-- Used for screen readers for accessibility -->
+					<span class="glyphicon glyphicon-menu-hamburger"></span>
+					<span class="menu"> Menu</span>
+				</button> <!-- Hamburger button for smaller devices -->
+				<a class="navbar-brand" href="#">Christian Halsted | Spatial Dataworks</a> <!-- Your website brand name -->
+		</div>
+
+		<div id="navbar" class="collapse navbar-collapse"> <!-- Links to include in navbar -->
+		  <ul class="nav navbar-nav">  <!-- Unordered list for links on navbar -->
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#contact">Contact</a></li>
+		  </ul>
+		</div> <!-- end .navbar-collapse -->
+	  </div> <!-- end .container -->
+	</nav> <!-- end navigation bar -->
+	</header>	
+
+ 
+<div class="bg">
+  <div id="bgtext">
+    <span class="border">CHRISTIAN HALSTED</span><br><br>
+    <span class="border">BACKGROUND</span>
+    <span class="border">BACKGROUND</span>
+  </div>
+</div>
+
+
+<!-- Projects -->
+<div id="projects" class="container">
+	<div class="page-header">
+		<h1>Projects</h1>
+	</div>
+	
+	<h2>Maps</h2>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4  col-xs-12">
+				<div class="thumbnail portfolio-thumbnail">
+					<a href="assets/bike_tour_map.png">
+						<img src="assets/bike_tour_map_thumb.png" alt="bike tour map" />
+						<div class="caption">
+							<p>Lorem ipsum...</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4  col-xs-12">
+				<div class="thumbnail portfolio-thumbnail">
+					<a href="assets/turkey_inforgraphic.png">
+						<img src="assets/turkey_infographic_thumb.png" alt="turkey population infographic" />
+						<div class="caption">
+							<p>Lorem ipsum...</p>
+						</div>					
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4  col-xs-12">
+				<div class="thumbnail portfolio-thumbnail">
+					<a href="assets/kittery100k.pdf">
+						<img src="assets/kittery100k_thumb.png" alt="Kittery 100K Bedrock map" />
+					</a>
+					<div class="caption">
+						<p>Lorem ipsum...</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h2>Web Maps</h2>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4  col-xs-12">
+				<div class="thumbnail portfolio-thumbnail">
+					<a href="https://www.maine.gov/dacf/mgs/pubs/digital/well.htm">
+						<img src="assets/wells_thumb.png" alt="Maine well database map" />
+						<div class="caption">
+							<p>Lorem ipsum...</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4  col-xs-12">
+				<div class="thumbnail portfolio-thumbnail">
+					<a href="https://www.maine.gov/dacf/mgs/explore/explore_map.shtml">
+						<img src="assets/gfl_thumb.png" alt="Maine geologic facts and localities map" />
+						<div class="caption">
+							<p>Lorem ipsum...</p>
+						</div>					
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4  col-xs-12">
+				<div class="thumbnail portfolio-thumbnail">
+					<a href="https://www.maine.gov/dacf/mgs/hazards/slr_ss/index.shtml">
+						<img src="assets/slrss_thumb.png" alt="Kittery 100K Bedrock map" />
+					</a>
+					<div class="caption">
+						<p>Lorem ipsum...</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+<!-- Experience -->
+<div id="experience" class="container">
+	<div name="experience" class="page-header">
+		<h1>Experience</h1>
+	</div>
+</div>
+
+
+
+<!-- Contact -->
+<div id="contact" class="container">
+	<div name="contact" class="page-header">
+		<h1>Contact</h1>
+	</div>
+
+	<form enctype="text/plain" method="post" action="mailto:christian.halsted@gmail.com"> 
+	  <div class="form-group">
+		<label for="name">Name:</label>
+		<input type="text" class="form-control" id="name" name="name">
+	  </div>
+	  <div class="form-group">
+		<label for="subject">Subject:</label>
+		<input type="text" class="form-control" id="subject" name="subject" value="Web site contact">
+	  </div>
+	  <div class="form-group">
+		<label for="comment">Comment:</label>
+		<textarea class="form-control" rows="4" id="comment" name="comment"></textarea>
+	  </div>
+	  <button type="send" class="btn btn-default">Send</button>
+	</form>
+
+<div class="row">
+	<div class="text-center">
+		<div class="col-md-12"><img src="assets/linkedin.png" alt="LinkedIn logo" class="rounded"></div>
+	</div>
+</div>	
+	
+	
+</div>
+<hr>
+
+
+
+
 </body>
 </html>
