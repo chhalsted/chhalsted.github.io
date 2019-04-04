@@ -1,35 +1,37 @@
-/* h1 {
-	color: #ff0000;
-	font-size: 30px;	
-} */
 
-/* div {
-	background-color: #000;
-	}
-
-	p {
-		color: #999;
-	}
-
-	#div-main {
-	background-color: #666;
-	}
-	
-	#div-main p {
-	color: #fff;
-	}
-
-	.div-special {
-	background-color: #333;
-	}
-
-	.div-special p {
-	color: #ccc;
-	} */
-	
 body, html {
   height: 100%;
   font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+.navbar-default {
+  background-color: #237f26;
+  border-radius: 0;
+  background-image: none;
+}
+.navbar-default .navbar-brand {
+   color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: wheat;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+	color: white;
+}
+
+footer {
+    position: fixed;
+    height: 25px;
+    bottom: 0;
+    width: 100%;
+	background-color: #1f631d;
+	/* color: #ccc */
+	color: white
 }
 
 @media (min-width: 100px) {  
@@ -65,16 +67,13 @@ body, html {
 } */
 
 #experiencebkgrd {
-	background-color: #99d8c9;
+	background-color: #c2c4c2;
 }
-/* .navbar, .navbar-default {
-	background-color: #006d2c;
-} */
 
 #bgtext {
   position: absolute;
   left: 0;
-  top: 25%;
+  top: 75%;
   width: 100%;
   text-align: center;
   color: #000;
@@ -110,5 +109,6 @@ body {
   font-weight: bold;
 }	
 
-
-
+.imgshadow {
+	box-shadow: 5px 5px 7px 1px black;
+}
