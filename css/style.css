@@ -5,7 +5,7 @@ body, html {
 }
 
 .navbar-default {
-  background-color: #237f26;
+  background-color: #125f0c;
   border-radius: 0;
   background-image: none;
 }
@@ -29,9 +29,16 @@ footer {
     height: 25px;
     bottom: 0;
     width: 100%;
-	background-color: #1f631d;
+	/* background-color: #1f631d; */
+	background-color: rgba(18, 95, 12, 1);
 	/* color: #ccc */
 	color: white
+}
+
+.carousel-inner>.item>a>img, 
+.carousel-inner>.item>img, 
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: inline;
 }
 
 @media (min-width: 100px) {  
@@ -61,29 +68,32 @@ footer {
   background-size: cover;
 }
 
-/* #logo {
-	text-align: center;
-	background-color: #111;
-} */
-
 #experiencebkgrd {
 	background-color: #c2c4c2;
 }
 
+#logo {
+  position: absolute;
+  left: 0;
+  top: 18%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
 #bgtext {
   position: absolute;
   left: 0;
-  top: 75%;
+  top: 65%;
   width: 100%;
   text-align: center;
   color: #000;
 }
 
 #bgtext span.border {
-  background-color: #111;
+  /* background-color: #111; */
   color: #fff;
-  padding: 18px;
-  font-size: 25px;
+/*   padding: 18px; */
+  font-size: 40px;
   letter-spacing: 10px;
 }
 
