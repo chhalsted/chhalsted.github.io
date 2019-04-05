@@ -61,20 +61,20 @@
 				<div class="thumbnail portfolio-thumbnail">
 					<a href="assets/bike_tour_map.png">
 						<img src="assets/bike_tour_map_thumb.png" alt="bike tour map" />
-						<div class="caption">
-							<p>Lorem ipsum...</p>
-						</div>
-					</a>
+					</a>						
+					<div class="caption">
+						<p>Shaded relief terrain map created for a class assignment using Adobe Illustrator and Photoshop.</p>
+					</div>
 				</div>
 			</div>
 			<div class="col-md-4  col-xs-12">
 				<div class="thumbnail portfolio-thumbnail">
 					<a href="assets/turkey_inforgraphic.png">
 						<img src="assets/turkey_infographic_thumb.png" alt="turkey population infographic" />
+					</a>						
 						<div class="caption">
-							<p>Lorem ipsum...</p>
+							<p>Example of a longform infographic created using Adobe Illustrator.</p>
 						</div>					
-					</a>
 				</div>
 			</div>
 			<div class="col-md-4  col-xs-12">
@@ -83,7 +83,7 @@
 						<img src="assets/kittery100k_thumb.png" alt="Kittery 100K Bedrock map" />
 					</a>
 					<div class="caption">
-						<p>Lorem ipsum...</p>
+						<p>This bedrock map example was created using ArcGIS Desktop.</p>
 					</div>
 				</div>
 			</div>
@@ -97,20 +97,20 @@
 				<div class="thumbnail portfolio-thumbnail">
 					<a href="https://www.maine.gov/dacf/mgs/pubs/digital/well.htm">
 						<img src="assets/wells_thumb.png" alt="Maine well database map" />
-						<div class="caption">
-							<p>Lorem ipsum...</p>
-						</div>
-					</a>
+					</a>						
+					<div class="caption">
+						<p>This web map was made using ArcGIS Pro, ArcGIS Online and the Esri Web App Builder.  It shows the locations and data for bedrock wells in Maine.</p>
+					</div>
 				</div>
 			</div>
 			<div class="col-md-4  col-xs-12">
 				<div class="thumbnail portfolio-thumbnail">
 					<a href="https://www.maine.gov/dacf/mgs/explore/explore_map.shtml">
 						<img src="assets/gfl_thumb.png" alt="Maine geologic facts and localities map" />
-						<div class="caption">
-							<p>Lorem ipsum...</p>
-						</div>					
-					</a>
+					</a>	
+					<div class="caption">
+						<p>This web page incorporates an ArcGIS Online web map built with the Esri Web App Builder and a DataTable.js table for displaying attribute information.</p>
+					</div>					
 				</div>
 			</div>
 			<div class="col-md-4  col-xs-12">
@@ -402,9 +402,17 @@
     </footer>
 	
 	
-		<script type="text/javascript" src="lib/jquery-1.11.3.js"></script>
-		<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="lib/bootstrap.min.js"></script>
 
+	<!-- This snippet fixes the navbar error of not collapsing after selection in mobile view -->
+	<script>
+	$(document).on('click','.navbar-collapse.in',function(e) {
+		if( $(e.target).is('a') ) {
+			$(this).collapse('hide');
+		}
+	});
+	</script>
 
 </body>
 </html>
